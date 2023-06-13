@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+}
+
+body {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+	background-color: #eae9e9;
+}
+
+.container{
+	height: 500px;
+	width: 300px;
+	box-shadow: 0 10px 20px #73c1e2	;
+	background-size: cover;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	overflow: hidden;
+	font-family: sans-serif;
+	border-radius: 5%;
+}
+
+.shape{
+	background-color: #73c1e2;
+	height: 230px;
+	width: 400px;
+	margin-left: -20px;
+	position: relative;
+	top: -100px;
+	box-shadow: 0 2px 15px #19e359;
+	transform: rotate(20deg);
+}
+
+.image{
+	height: 120px;
+	width:120px;
+	background-image: url(img/ft33.png);
+	position: absolute;
+	top: 170px;
+	margin-left: 150px;
+	background-size: cover;
+	border: none;
+	border-radius: 30px;
+	box-shadow: 0 2px 15px #f8f8bb;
+	transform: rotate(-20deg);
+}
+
+.title{
+	font-size: 16px;
+	padding-bottom:6px;
+	color: #000000;
+}
+
+h3{
+	margin-bottom: 10px;
+}
+
+
+
+p{
+	padding-left: 30px;
+	padding-right: 30px;
+	line-height: 2;
+	color: rgb(0, 0, 0);
+	/* color: #634c4c; */
+	font-size: 15px;
+}
+
+.icons{
+	margin-top: 15px;
+}
+
+.icons i{
+	margin-left: 10px;
+	font-size: 20px;
+	transform: .3s;
+	color: rgb(5, 24, 227);
+}
+
+.icons i:hover{
+	transform: scale(1.2);
+	color: rgb (18,192,235);
+}
+
+.icons ion-icon {
+    font-size: 30px; 
+	margin-right: 20px; 
+	text-align: center;
+  }
+
+/* 
+h1 {
+	font-size: 80px;
+}
+
+h2 {
+	font-size: 40px;
+	font-weight: normal;
+	margin-bottom: 40px;
+	color: #848484;
+}
+
+button {
+	border: none;
+	background: #2553df;
+	font-family: 'Poppins', sans-serif;
+	font-size: 22px;
+	cursor: pointer;
+	border-radius: 10px;
+	color: #fff;
+	padding: 14px 28px;
+	margin-bottom: 20px;
+}
+
+button:hover {
+	background: #1942be;
+} */
